@@ -1,0 +1,78 @@
+{
+  "data_dir": "./data",
+  "output_dir": "cifar10_final_v2_results",
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "epochs": 8,
+  "train_limit": 20000,
+  "probe_size": 2000,
+  "batch_size": 128,
+  "num_workers": 0,
+  "shock_step": 500,
+  "shock_multiplier": 20.0,
+  "short_horizon_steps": 300,
+  "sparse_eval_interval": 200,
+  "pre_shock_tolerance": 1e-08,
+  "calibration_seed": 4242,
+  "partition_seed": 13579,
+  "calibration_epochs": 3,
+  "calibration_train_limit": 10000,
+  "calibration_val_size": 2000,
+  "sgd_lr_grid": [
+    0.01,
+    0.03,
+    0.05,
+    0.1
+  ],
+  "adagrad_lr_grid": [
+    0.003,
+    0.01,
+    0.03,
+    0.05
+  ],
+  "adam_lr_grid": [
+    0.0003,
+    0.001,
+    0.003
+  ],
+  "selected_learning_rates": {
+    "SGD": 0.03,
+    "AdaGrad": 0.01,
+    "Adam": 0.003
+  },
+  "steps_per_epoch": 157,
+  "total_steps": 1256,
+  "evaluation_steps": [
+    0,
+    200,
+    400,
+    450,
+    480,
+    490,
+    495,
+    498,
+    499,
+    500,
+    501,
+    502,
+    505,
+    510,
+    520,
+    530,
+    550,
+    575,
+    600,
+    650,
+    700,
+    750,
+    800,
+    1000,
+    1200,
+    1256
+  ],
+  "final_train_size": 20000,
+  "probe_size_actual": 2000
+}

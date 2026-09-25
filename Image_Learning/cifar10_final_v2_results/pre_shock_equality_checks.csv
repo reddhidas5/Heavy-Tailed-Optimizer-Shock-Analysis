@@ -1,0 +1,10 @@
+Optimizer,Seed,LearningRate,PreShockParameterDifferenceNorm,Tolerance,Passed
+SGD,2026,0.03,0.0,1e-08,1
+AdaGrad,2026,0.01,0.0,1e-08,1
+Adam,2026,0.003,0.0,1e-08,1
+SGD,2027,0.03,0.0,1e-08,1
+AdaGrad,2027,0.01,0.0,1e-08,1
+Adam,2027,0.003,0.0,1e-08,1
+SGD,2028,0.03,0.0,1e-08,1
+AdaGrad,2028,0.01,0.0,1e-08,1
+Adam,2028,0.003,0.0,1e-08,1
